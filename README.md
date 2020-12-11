@@ -1,2 +1,2 @@
 # Basic-OS
-This is a Operating System that is easily Editable
+Basic OS is an operating system built for low-end mobile devices in Computercraft
