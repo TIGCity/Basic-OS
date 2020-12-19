@@ -32,6 +32,7 @@ Minerizon  -  Basic OS 1.0.0A
 Messages @msgs
 Games @games
 Write A Note @note
+Contacts @contacts
 Comming Soon: My Minerizon @cs
 Comming Soon: Settings @cs
 Power @power
