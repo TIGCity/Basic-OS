@@ -23,7 +23,7 @@ m:addFunc("adv", shell.run, "adventure")
 m:addFunc("sd", shell.run, "shutdown")
 m:addFunc("r", shell.run, "reboot")
 m:addFunc("u", updater)
-m:addFunc("msgs", shell.run, "sms.lua")
+m:addFunc("msgs", shell.run, "basicos/apps/sms.lua")
 
 m:addScreen("main",
 [[
