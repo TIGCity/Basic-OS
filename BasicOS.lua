@@ -23,15 +23,15 @@ m:addFunc("adv", shell.run, "adventure")
 m:addFunc("sd", shell.run, "shutdown")
 m:addFunc("r", shell.run, "reboot")
 m:addFunc("u", updater)
+m:addFunc("msgs", shell.run, "sms.lua")
 
 m:addScreen("main",
 [[
 Minerizon  -  Basic OS 1.0.0A
 
-Comming Soon: Messages @cs
+Messages @msgs
 Games @games
 Write A Note @note
-Comming Soon: Internet Browser @cs
 Comming Soon: My Minerizon @cs
 Comming Soon: Settings @cs
 Power @power
