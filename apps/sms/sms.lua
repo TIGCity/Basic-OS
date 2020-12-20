@@ -3,4 +3,4 @@ chatId2 = read()
 print("Type your name: ")
 name = read()
 chatId = "tigcity-"..chatId2..""
-shell.run("enchatapi", name, chatId)
+shell.run("basicos/apps/sms/enchatapi", name, chatId)
