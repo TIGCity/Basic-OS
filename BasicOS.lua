@@ -7,6 +7,13 @@ function notesApp()
   noteFile = noteFile1 + ".txt"
   shell.run("edit", noteFile)
 end
+
+function contactsApp()
+	print("What is the name of the contact you want to open/create: ")
+	contactFile1 = read()
+ 	contactFile = contactFile1 + ".txt"
+  	shell.run("edit", "basicos/contacts/"..contactFile.."")
+end
  
 function updater()
 	print("Downloading updates and rebooting...")
