@@ -10,8 +10,8 @@ end
 function contactsApp()
 	print("What is the name of the contact you want to open/create: ")
 	contactFile1 = read()
- 	contactFile = contactFile1 + ".txt"
-  	shell.run("edit", "basicos/contacts/"..contactFile.."")
+ 	contactFile = contactFile1
+  	shell.run("edit", "basicos/contacts/"..contactFile..".txt")
 end
  
 function updater()
