@@ -1,4 +1,3 @@
-os.loadAPI("basicos/apis/apps")
 os.loadAPI("basicos/apis/menu")
 
 function notesApp()
