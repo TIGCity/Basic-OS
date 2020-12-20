@@ -16,6 +16,7 @@ end
  
 function updater()
 	print("Downloading updates and rebooting...")
+	print("NOTE: As of this version of Basic OS the updater only updates the core os file not apps.")
 	fs.delete("startup")
 	shell.run("wget", "https://tigcity.github.io/Basic-OS/BasicOS.lua", "startup.lua")
 	os.reboot()
