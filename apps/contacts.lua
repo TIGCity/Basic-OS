@@ -1,7 +1,8 @@
 os.loadAPI("basicos/apis/menu")
 
 local contactsFile = fs.open("basicos/contacts/contactfile.txt", "w")
-local contacts = textutils.unserialize(contactsFile.readAll())
+local ctfileun = contactsFile.readAll()
+local contacts = textutils.unserialize(ctfileun)
 
 local m = menu.new()
 
