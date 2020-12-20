@@ -17,7 +17,7 @@ end
 function updater()
 	print("Downloading updates and rebooting...")
 	fs.delete("startup")
-	shell.run("pastebin", "get", "xzzsTZXQ", "startup")
+	shell.run("wget", "https://tigcity.github.io/Basic-OS/BasicOS.lua", "startup.lua")
 	os.reboot()
 end
 
