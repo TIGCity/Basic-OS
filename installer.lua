@@ -1,3 +1,4 @@
+term.clear()
 print("Installing the latest version of Basic-OS...")
 sleep(5)
 shell.run("wget https://tigcity.github.io/Basic-OS/BasicOS.lua startup")
